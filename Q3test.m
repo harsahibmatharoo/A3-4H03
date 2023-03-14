@@ -7,7 +7,7 @@ Y = data(:, 12:end);
 num_components = 3;
 
 % Perform NIPALS algorithm for PLS
-[A, B, R2] = nipals_pls(X, Y, num_components);
+[A, B, R2] = pls_nipals(X, Y, num_components);
 
 
 % Load REAL values
